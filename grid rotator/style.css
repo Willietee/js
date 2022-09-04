@@ -1,0 +1,20 @@
+.main {
+    margin: 0 auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 50px;
+    grid-gap: 2px;
+}    
+h1{
+    font-style: italic;
+    color: burlywood;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+h5{
+    font-style: italic;
+    color: chocolate;
+    margin-left: 400px;
+    margin-top: 120px;
+}
